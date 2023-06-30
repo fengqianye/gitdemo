@@ -15,6 +15,6 @@
     "stylelint-check": "stylelint-config-prettier-check"
   },
   "lint-staged": {
-    "**/*": ["eslint","prettier --write"]
+    "**/src*": ["eslint --fix","prettier --write"]
   }
 }

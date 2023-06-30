@@ -15,6 +15,6 @@
     "stylelint-check": "stylelint-config-prettier-check"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": ["eslint","prettier --write"]
   }
 }

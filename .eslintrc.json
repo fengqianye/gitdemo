@@ -16,6 +16,6 @@
   "plugins": ["@typescript-eslint", "vue"],
   "rules": {
     // 使用 "off", "warn", "error"
-    "no-console": "warn"
+    "no-console": "error"
   }
 }
